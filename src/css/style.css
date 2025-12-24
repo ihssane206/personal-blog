@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .success {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .invalid {
+    border: 2px solid red;
+    outline: none;
+  }  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+  }
+  
+  body.dark {
+    background: #111;
+    color: #eee;
+  }
+  
+  body.dark a {
+    color: #9ad;
+  }
+  
+  .saved-msg {
+    color: green;
+    font-weight: bold;
+  }  

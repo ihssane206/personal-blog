@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Settings</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <!-- NAV (keep the same nav you use in other pages) -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="blog.html">Blog</a> |
+      <a href="login.html">Login</a> |
+      <a href="settings.html">Settings</a> |
+      <a href="api.html">API Demo</a> |
+      <a href="sitemap.html">Sitemap</a>
+    </nav>
+  </header>
+  <h1>Experiment 5 & 6 - Settings (Dynamic + Storage)</h1>
+  <section>
+    <h2>Theme Customization</h2>
+    <label>
+      <input type="checkbox" id="darkToggle">
+      Dark Mode
+    </label>
+  </section>
+  <hr />
+  <section>
+    <h2>Reading Preferences</h2>
+    <button type="button" id="smallBtn">Small</button>
+    <button type="button" id="mediumBtn">Medium</button>
+    <button type="button" id="largeBtn">Large</button>
+  </section>
+
+  <hr />
+
+  <section>
+    <h2>Form Auto-Save</h2>
+
+    <label>Username</label><br/>
+    <input type="text" id="username" placeholder="Username" /><br/><br/>
+
+    <label>Email</label><br/>
+    <input type="email" id="email" placeholder="Email" /><br/><br/>
+
+    <span id="savedMsg" class="saved-msg"></span><br/><br/>
+
+    <button type="button" id="clearSavedBtn">Clear Saved Data</button>
+  </section>
+  <footer>
+    <p>© 2025 Personal Blog</p>
+  </footer>
+
+  <!-- IMPORTANT: script at the end -->
+  <script src="../js/settings.js"></script>
+</body>
+</html>

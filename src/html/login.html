@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="blog.html">Blog</a> |
+    <a href="login.html">Login</a> |
+    <a href="settings.html">Settings</a> |
+    <a href="api.html">API Demo</a> |
+    <a href="sitemap.html">Sitemap</a>
+  </nav>
+</header>
+<h1>Experiment 4 - Advanced Form Validation</h1>
+<section>
+  <h2>Login</h2>
+  <form id="loginForm" novalidate>
+    <div>
+      <label for="loginEmail">Email</label><br />
+      <input type="text" id="loginEmail" placeholder="Enter email" />
+      <div id="loginEmailError" class="error"></div>
+    </div>
+    <br />
+    <div>
+      <label for="loginPassword">Password</label><br />
+      <input type="password" id="loginPassword" placeholder="Enter password" />
+      <div id="loginPasswordError" class="error"></div>
+    </div>
+    <br />
+    <button type="submit">Login</button>
+  </form>
+  <p id="loginSuccess" class="success"></p>
+</section>
+<hr />
+<section>
+  <h2>Registration</h2>
+  <form id="regForm" novalidate>
+    <div>
+      <label for="regName">Name</label><br />
+      <input type="text" id="regName" placeholder="Enter name" />
+      <div id="regNameError" class="error"></div>
+    </div>
+    <br />
+    <div>
+      <label for="regEmail">Email</label><br />
+      <input type="text" id="regEmail" placeholder="Enter email" />
+      <div id="regEmailError" class="error"></div>
+    </div>
+    <br />
+    <div>
+      <label for="regUsername">Username</label><br />
+      <input type="text" id="regUsername" placeholder="Enter username" />
+      <div id="regUsernameError" class="error"></div>
+    </div>
+    <br />
+    <div>
+      <label for="regPassword">Password</label><br />
+      <input type="password" id="regPassword" placeholder="Enter password" />
+      <div id="regPasswordError" class="error"></div>
+    </div>
+    <br />
+    <div>
+      <label for="regConfirmPassword">Confirm Password</label><br />
+      <input type="password" id="regConfirmPassword" placeholder="Confirm password" />
+      <div id="regConfirmPasswordError" class="error"></div>
+    </div>
+    <br />
+    <button type="submit">Register</button>
+    <button type="button" id="clearBtn">Clear Form</button>
+  </form>
+  <p id="regSuccess" class="success"></p>
+</section>
+<script src="../js/experiment4.js"></script>
+</body>
+</html>

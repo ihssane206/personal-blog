@@ -1,0 +1,4 @@
+[
+    { "id": 1, "title": "My First Cute Post", "content": "This post is loaded from posts.json using fetch().", "author": "Ihssane", "date": "2025-12-23", "category": "General" },
+    { "id": 2, "title": "JavaScript Practice", "content": "Async loading + UI updates are very useful in web apps.", "author": "Ihssane", "date": "2025-12-23", "category": "JavaScript" }
+  ]  
